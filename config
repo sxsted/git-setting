@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:sxsted/javascript-css-test.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    d = difftool
+[core]
+    editor = vim
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false
